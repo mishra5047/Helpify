@@ -1,10 +1,13 @@
 package com.example.helpify.ui.home;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -38,6 +41,40 @@ public class HomeFragment extends Fragment {
         EmergencyContactAdapter adapter = new EmergencyContactAdapter(list, getContext());
         binding.recyclerEmergency.setLayoutManager(new LinearLayoutManager(getContext(), LinearLayoutManager.VERTICAL,false));
         binding.recyclerEmergency.setAdapter(adapter);
+
+        binding.ambulanceImage.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(Intent.ACTION_DIAL);
+                intent.setData(Uri.parse("tel:" + "102"));
+                startActivity(intent);
+            }
+        });
+
+        binding.fireImage.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(Intent.ACTION_DIAL);
+                intent.setData(Uri.parse("tel:" + "101"));
+                startActivity(intent);
+            }
+        });
+
+        binding.policeImage.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(Intent.ACTION_DIAL);
+                intent.setData(Uri.parse("tel:" + "100"));
+                startActivity(intent);
+            }
+        });
+
+        binding.sosImage.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Toast.makeText(getContext(), "Sending Message to your Contacts", Toast.LENGTH_SHORT).show();
+            }
+        });
         return root;
     }
 

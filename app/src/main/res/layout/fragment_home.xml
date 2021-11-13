@@ -5,6 +5,42 @@
     android:layout_height="match_parent"
     tools:context=".ui.profile.ProfileFragment">
 
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_marginRight="10dp"
+            android:id="@+id/fireImage"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="50dp"
+            android:background="@drawable/fire"
+            />
+
+        <ImageView
+            android:layout_marginRight="10dp"
+            android:id="@+id/ambulanceImage"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="50dp"
+            android:background="@drawable/ambulance"
+            />
+
+        <ImageView
+            android:layout_marginRight="10dp"
+            android:id="@+id/policeImage"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="50dp"
+            android:background="@drawable/police_car"
+            />
+
+    </LinearLayout>
+
     <ImageView
         android:id="@+id/sosImage"
         android:layout_width="200dp"
