@@ -12,14 +12,20 @@
         tools:layout="@layout/fragment_home" />
 
     <fragment
-        android:id="@+id/navigation_dashboard"
-        android:name="com.example.helpify.ui.dashboard.DashboardFragment"
-        android:label="@string/title_dashboard"
-        tools:layout="@layout/fragment_dashboard" />
+        android:id="@+id/navigation_nearby"
+        android:name="com.example.helpify.ui.nearby.NearbyFragment"
+        android:label="@string/title_nearby"
+        tools:layout="@layout/fragment_nearby" />
 
     <fragment
-        android:id="@+id/navigation_notifications"
-        android:name="com.example.helpify.ui.notifications.NotificationsFragment"
-        android:label="@string/title_notifications"
-        tools:layout="@layout/fragment_notifications" />
+        android:id="@+id/navigation_mental_health"
+        android:name="com.example.helpify.ui.nearby.NearbyFragment"
+        android:label="@string/title_mental_health"
+        tools:layout="@layout/fragment_mental_health" />
+
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="com.example.helpify.ui.profile.profileFragment"
+        android:label="@string/title_profile"
+        tools:layout="@layout/fragment_profile" />
 </navigation>
