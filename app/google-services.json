@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "170928848283",
+    "project_id": "helpify-f91f8",
+    "storage_bucket": "helpify-f91f8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:170928848283:android:1cab4fa123cb57ccaaf53e",
+        "android_client_info": {
+          "package_name": "com.example.helpify"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "170928848283-i6gndrcoj7tgae3n2auvkak7ks9cca2q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYGysXZ-jWfyuR3AZwWLst7Lkzoae_Hy8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "170928848283-i6gndrcoj7tgae3n2auvkak7ks9cca2q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

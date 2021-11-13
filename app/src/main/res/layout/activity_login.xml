@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".LoginActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:met_floatingLabel="highlight"
+            app:met_floatingLabelText="#000"
+            android:hint="Your Contact Number"
+            android:id="@+id/mobileNoEnter"
+            />
+
+        <com.royrodriguez.transitionbutton.TransitionButton
+            android:layout_gravity="center"
+            android:id="@+id/loginButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageSlider"
+            android:layout_marginTop="30dp"
+            android:paddingHorizontal="@dimen/dimen40"
+            android:text="Login"
+            android:textColor="@android:color/white"
+            app:defaultColor="#2979FF"
+            app:loaderColor="#18FFFF" />
+
+    </LinearLayout>
+
+</RelativeLayout>
