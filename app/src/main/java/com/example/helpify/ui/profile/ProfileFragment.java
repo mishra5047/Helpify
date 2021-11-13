@@ -10,7 +10,7 @@ import androidx.fragment.app.Fragment;
 
 import com.example.helpify.databinding.FragmentProfileBinding;
 
-public class profileFragment extends Fragment {
+public class ProfileFragment extends Fragment {
 
     private FragmentProfileBinding binding;
 
