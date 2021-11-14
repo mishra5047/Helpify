@@ -19,7 +19,7 @@
 
     <fragment
         android:id="@+id/navigation_mental_health"
-        android:name="com.example.helpify.ui.nearby.NearbyFragment"
+        android:name="com.example.helpify.ui.mentalHealth.MentalHealthFragment"
         android:label="@string/title_mental_health"
         tools:layout="@layout/fragment_mental_health" />
 

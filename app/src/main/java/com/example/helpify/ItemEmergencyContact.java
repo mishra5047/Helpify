@@ -1,15 +1,14 @@
 package com.example.helpify;
 
 public class ItemEmergencyContact {
-    String name, imageUrl, phoneNumber, relation;
+    public String Contact, ContactName, Relation;
 
     public ItemEmergencyContact() {
     }
 
-    public ItemEmergencyContact(String name, String imageUrl, String phoneNumber, String relation) {
-        this.name = name;
-        this.imageUrl = imageUrl;
-        this.phoneNumber = phoneNumber;
-        this.relation = relation;
+    public ItemEmergencyContact(String contact, String contactName, String relation) {
+        Contact = contact;
+        ContactName = contactName;
+        Relation = relation;
     }
 }

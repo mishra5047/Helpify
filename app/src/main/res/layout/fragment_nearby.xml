@@ -11,8 +11,7 @@
         android:layout_height="200dp"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="100dp"
-        android:background="@drawable/sos"
-        />
+        android:background="@drawable/sos" />
 
     <TextView
         android:id="@+id/titleEmergency"
@@ -32,6 +31,8 @@
         android:layout_marginStart="10dp"
         android:layout_marginTop="10dp"
         android:layout_marginEnd="10dp"
-        android:layout_marginBottom="10dp" />
+        android:layout_marginBottom="10dp"
+        tools:listitem="@layout/item_nearby_places"
+        />
 
 </RelativeLayout>

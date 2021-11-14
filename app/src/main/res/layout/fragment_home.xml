@@ -3,17 +3,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".ui.profile.ProfileFragment">
 
     <LinearLayout
         android:layout_marginTop="20dp"
-        android:layout_marginHorizontal="50dp"
+        android:layout_marginHorizontal="90dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
 
         <ImageView
-            android:layout_marginRight="10dp"
             android:id="@+id/fireImage"
             android:layout_width="0dp"
             android:layout_weight="1"
@@ -22,7 +22,7 @@
             />
 
         <ImageView
-            android:layout_marginRight="10dp"
+            android:layout_marginHorizontal="20dp"
             android:id="@+id/ambulanceImage"
             android:layout_width="0dp"
             android:layout_weight="1"
@@ -31,7 +31,6 @@
             />
 
         <ImageView
-            android:layout_marginRight="10dp"
             android:id="@+id/policeImage"
             android:layout_width="0dp"
             android:layout_weight="1"
@@ -70,4 +69,14 @@
         android:layout_marginEnd="10dp"
         android:layout_marginBottom="10dp" />
 
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/addSOSContact"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/recyclerEmergency"
+        android:layout_margin="20dp"
+        android:src="@android:drawable/ic_input_add"
+        app:fabCustomSize="50dp"
+        />
 </RelativeLayout>
